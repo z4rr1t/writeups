@@ -1,12 +1,12 @@
 # Cyber Apocalypse 2024: Hacker Royale
 
--Organizer: Hack The Box
--Format: Jeopardy
--Location: Online
+-Organizer: Hack The Box.  
+-Format: Jeopardy.  
+-Location: Online.  
 
 ## Overview
 
-This is my writeups for Cyber Apocalypse 2024: Hacker Royale
+This is my writeups for Cyber Apocalypse 2024: Hacker Royale.  
 
 ## Categories
 

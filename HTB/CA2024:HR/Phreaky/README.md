@@ -90,7 +90,8 @@ print('Successfully Extracted file at ', output)
 ```
 we run it and boom we have the pdf file containing the flag.  
 
-![]()
+![](https://github.com/z4rr1t/writeups/blob/main/HTB/CA2024%3AHR/Phreaky/img/phreakingPDF.png?raw=true)
 
 ## flag
+```HTB{Th3Phr3aksReadyT0Att4ck}```
 

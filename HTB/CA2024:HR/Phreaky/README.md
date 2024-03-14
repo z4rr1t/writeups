@@ -3,7 +3,7 @@
 [](tags=game)
 [](techniques=pcap-analysis)
 
-# Phreaky.hard (forensics-300)
+# Phreaky.medium
 This is a treacky challenge, it requires a bit of python programming skills to solve it quickly, or without them to take forever
 
 ## Resources

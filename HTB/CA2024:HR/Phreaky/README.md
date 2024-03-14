@@ -4,7 +4,13 @@
 [](techniques=pcap-analysis)
 
 # Phreaky.medium
-This is a treacky challenge, it requires a bit of python programming skills to solve it quickly, or without them to take forever
+This is a treacky challenge.  
+Category: Forensics.  
+Difficulty: Medium.  
+  
+## Requirement
+Basic wireshark skills
+
 
 ## Resources
 challenge file is a capture file: phreaky.pcap  
@@ -23,7 +29,7 @@ Later on, I filtered in SMTP protocol packets to focus on SMTP traffic. I identi
 by extracting the first packet, the packets contains pdf file decomposed to 15 fragments  
 
 ## Solve
-I am a lazy person and i wont go through every base64 encoded zip file manually and unzip it, so i crafetd this python script using pyshark:  
+I am a lazy person and i wont go through every base64 encoded zip file manually and unzip it, so i crafted this python script using pyshark:  
 ```python
 import pyshark
 from binascii import unhexlify

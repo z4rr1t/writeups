@@ -50,7 +50,7 @@ after that I noticed that there is a mentionned Threads account, I checked it ou
 
 #### ```first flag```
 <p class="hidden-text">
-[hover text](## "uiuctf{7W1773r_K!113r_321879}")
+[Display text](a "uiuctf{7W1773r_K!113r_321879}")
 
 ## <a id="an-unlikely-partnership-100"></a> An Unlikely Partnership [100]
 

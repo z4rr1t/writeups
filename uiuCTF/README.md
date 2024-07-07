@@ -1,3 +1,5 @@
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
 
 <div class="header">
     <img src="assets/Logo.png" alt="Logo">

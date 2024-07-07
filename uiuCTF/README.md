@@ -55,7 +55,7 @@ This is part two of a three-part OSINT suite including Hip With the Youth, An Un
 
 ## Steps Taken
 
-I actually managed to solve this challenge before the first one by googling(yea i stumbled on the LinkedIn account before ig), but later on when i solved <a href="#hip-with-the-youth-89">Hip With the Youth</a> i found a lead to it in the Threads account of LISA(link to LinkedIn in bio)
+Since the challenge is about finding the counterpart of partnership made by LISA, which must be found on LinkedIn (very common place to find partnership info), I actually managed to solve this challenge before the first one by googling(yea i stumbled on the LinkedIn account before ig), but later on when i solved <a href="#hip-with-the-youth-89">Hip With the Youth</a> i found a lead to it in the Threads account of LISA(link to LinkedIn in bio)
 
 | <img src="assets/4.png" alt="LinkedIn account of LISA" width="75%"> | 
 |:--:| 

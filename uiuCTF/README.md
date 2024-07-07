@@ -1,4 +1,4 @@
-![](assets/Header.svg)
+![](assets/Logo.png | width=50px)
 
 # UIUC-Chan challenge suite (OSINT)
 

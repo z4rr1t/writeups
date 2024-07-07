@@ -1,10 +1,4 @@
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
-
-<div class="header">
-    <img src="assets/Logo.png" alt="Logo">
-    <h1>UIUCTF2024</h1>
-</div>
+![](assets/Header.svg)
 
 # UIUC-Chan challenge suite (OSINT)
 
@@ -23,36 +17,37 @@ This is part one of a three-part OSINT suite including Hip With the Youth, An Un
 
 ## Steps Taken
 
-The first challenge was kinda the easiest one, and somehow was the last one i solved, I did not succeed in finding the Instagram account of LISA by searching in google, so i tried to switch the search engine to duckduckgo, and the first result appear to be LISA ig account.
+The first challenge supposed to be the first to be solved. However, it was the last one i solved, I did not succeed in finding the Instagram account of LISA by searching in google, so i tried to switch the search engine to duckduckgo, and the first result appear to be LISA ig account.
 
 <div style="text-align: center;">
     <figure>
         <img src="assets/1.png" alt="image" style="border: 1px solid black; width: 75%;">
-        <figcaption>Instagram account of LISA</figcaption>
+        <figcaption style="font-size:10px;">Instagram account of LISA</figcaption>
     </figure>
 </div>
 
-after invistigating the account I found 2 posts, i checked the comments, the users commenting. nothing intersting.
+after invistigating the account. 2 posts, 3 comments, 48 followers (atm), no flag yet.
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/2.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>Posts on LISA's Instagram</figcaption>
+        <img src="assets/2.png" alt="image" style="border: 1px solid black; width: 75%;">
+        <figcaption style="font-size:10px;">Posts on LISA's Instagram</figcaption>
     </figure>
 </div>
 
-after that I noticed that there is a mentionned Threads account, I checked it out and the flag is in the comment section of the very first thread.
+afterwards, I noticed that there is a mentionned Threads account, I checked it out and the flag is in the comment section of the very first thread.
 
 <div style="text-align: center;">
     <figure>
         <img src="assets/3.png" alt="image" style="border: 1px solid black; width: 75%;">
-        <figcaption>Threads account of LISA</figcaption>
+        <figcaption style="font-size:10px;">Threads account of LISA</figcaption>
     </figure>
 </div>
 
 #### ```first flag```
 <p class="hidden-text">
-[Display text](a "uiuctf{7W1773r_K!113r_321879}")
+    uiuctf{7W1773r_K!113r_321879}
+</p>
 
 ## <a id="an-unlikely-partnership-100"></a> An Unlikely Partnership [100]
 
@@ -69,16 +64,16 @@ I actually managed to solve this challenge before the first one by googling(yea 
 <div style="text-align: center;">
     <figure>
         <img src="assets/4.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption style="font-size: 12px;">LinkedIn account found by searching</figcaption>
+        <figcaption style="font-size:10px;">LinkedIn account found by searching</figcaption>
     </figure>
 </div>
 
-So the challenge is to find the influencer with whom LISA made a partnership, by invistigating he linkedIn account, i came across this endorsement by UIUC Chan
+For this challenge we have to find the counterpart of partnership made by LISA as the description of the challenge says, by invistigating LISA Transit LinkedIn account, i came across this endorsement by UIUC Chan
 
 <div style="text-align: center;">
     <figure>
         <img src="assets/5.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>Endorsement by UIUC Chan</figcaption>
+        <figcaption style="font-size:10px;">Endorsement by UIUC Chan</figcaption>
     </figure>
 </div>
 
@@ -86,7 +81,7 @@ and the flag is found in the about section of her linkedIn account
 
 #### ```second flag```
 <p class="hidden-text">
-        uiuctf{0M160D_U1UCCH4N_15_MY_F4V0r173_129301}
+    uiuctf{0M160D_U1UCCH4N_15_MY_F4V0r173_129301}
 </p>
 
 ## <a id="the-weakest-link-393"></a> The Weakest Link [393]
@@ -105,7 +100,7 @@ The starting point for this challenge is the LinkedIn account(obviously hehe), a
 <div style="text-align: center;">
     <figure>
         <img src="assets/6.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>Spotify user profile in LinkedIn Contact Info</figcaption>
+        <figcaption style="font-size:10px;">Spotify user profile in LinkedIn Contact Info</figcaption>
     </figure>
 </div>
 
@@ -114,27 +109,27 @@ The Spotify profile looks empty with one public playlist which contains normal s
 <div style="text-align: center;">
     <figure>
         <img src="assets/7.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>Spotify profile with one public playlist</figcaption>
+        <figcaption style="font-size:10px;">Spotify profile with one public playlist</figcaption>
     </figure>
 </div>
 
-The trick here is to follow UIUC Chan on spotify and look into her activity in the Friend Activity bar, I found that she's listening to a song on a playlist called ```songs for train lovers```, i visited the playlist which is made by LISA and UIUC Chan, and the flag is in the description.
+The trick here is to follow UIUC Chan on Spotify and by looking into her activity in the Friend Activity bar, I remarked that she's listening to a song on a playlist called ```songs for train lovers```, i visited the playlist which is made by LISA and UIUC Chan, and the flag can be seen in the description.
 
 <div style="text-align: center;">
     <figure>
         <img src="assets/8.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>UIUC Chan's Spotify activity</figcaption>
+        <figcaption style="font-size:10px;">UIUC Chan's Spotify activity</figcaption>
     </figure>
     <figure>
         <img src="assets/9.png" alt="image" style="border: 1px solid black; width: 50%;">
-        <figcaption>The secret spotify playlist</figcaption>
+        <figcaption style="font-size:10px;">The secret spotify playlist</figcaption>
     </figure>
 </div>
 
-#### ```third flag```
-<p class="hidden-text">
+
+
     uiuctf{7rU1Y_50N65_0F_7H3_5UMM3r_432013}
-</p>
+
 
 <style>
 .hidden-text {
@@ -147,18 +142,6 @@ The trick here is to follow UIUC Chan on spotify and look into her activity in t
     color: white;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.header img {
-    margin-right: 10px;
-    width: 50px; /* Adjust the width as needed */
-    height: auto;
-}
 </style>
 
 

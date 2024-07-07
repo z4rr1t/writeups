@@ -1,4 +1,7 @@
-![](assets/Logo.png | width=50px)
+<p align="center">
+<img src="assets/Logo.png" alt="Logo" width="50px" height="auto" >
+<center><h1>UIUCTF2024</h1></center>
+</p>
 
 # UIUC-Chan challenge suite (OSINT)
 
@@ -19,30 +22,23 @@ This is part one of a three-part OSINT suite including Hip With the Youth, An Un
 
 The first challenge supposed to be the first to be solved. However, it was the last one i solved, I did not succeed in finding the Instagram account of LISA by searching in google, so i tried to switch the search engine to duckduckgo, and the first result appear to be LISA ig account.
 
-<div style="text-align: center;">
-    <figure>
-        <img src="assets/1.png" alt="image" style="border: 1px solid black; width: 75%;">
-        <figcaption style="font-size:10px;">Instagram account of LISA</figcaption>
-    </figure>
-</div>
+
+
+| ![1.png](assets/1.png) | 
+|:--:| 
+| *Instagram account of LISA* |
 
 after invistigating the account. 2 posts, 3 comments, 48 followers (atm), no flag yet.
 
-<div style="text-align: center;">
-    <figure>
-        <img src="assets/2.png" alt="image" style="border: 1px solid black; width: 75%;">
-        <figcaption style="font-size:10px;">Posts on LISA's Instagram</figcaption>
-    </figure>
-</div>
+| ![2.png](assets/2.png) | 
+|:--:| 
+| *Posts on LISA's Instagram* |
 
 afterwards, I noticed that there is a mentionned Threads account, I checked it out and the flag is in the comment section of the very first thread.
 
-<div style="text-align: center;">
-    <figure>
-        <img src="assets/3.png" alt="image" style="border: 1px solid black; width: 75%;">
-        <figcaption style="font-size:10px;">Threads account of LISA</figcaption>
-    </figure>
-</div>
+| ![3.png](assets/3.png) | 
+|:--:| 
+| *Threads account of LISA* |
 
 #### ```first flag```
 <p class="hidden-text">
@@ -63,7 +59,7 @@ I actually managed to solve this challenge before the first one by googling(yea 
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/4.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/4.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">LinkedIn account found by searching</figcaption>
     </figure>
 </div>
@@ -72,7 +68,7 @@ For this challenge we have to find the counterpart of partnership made by LISA a
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/5.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/5.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">Endorsement by UIUC Chan</figcaption>
     </figure>
 </div>
@@ -99,7 +95,7 @@ The starting point for this challenge is the LinkedIn account(obviously hehe), a
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/6.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/6.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">Spotify user profile in LinkedIn Contact Info</figcaption>
     </figure>
 </div>
@@ -108,7 +104,7 @@ The Spotify profile looks empty with one public playlist which contains normal s
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/7.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/7.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">Spotify profile with one public playlist</figcaption>
     </figure>
 </div>
@@ -117,11 +113,11 @@ The trick here is to follow UIUC Chan on Spotify and by looking into her activit
 
 <div style="text-align: center;">
     <figure>
-        <img src="assets/8.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/8.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">UIUC Chan's Spotify activity</figcaption>
     </figure>
     <figure>
-        <img src="assets/9.png" alt="image" style="border: 1px solid black; width: 50%;">
+        <img src="assets/9.png" alt="image" width="50%">
         <figcaption style="font-size:10px;">The secret spotify playlist</figcaption>
     </figure>
 </div>
@@ -129,19 +125,3 @@ The trick here is to follow UIUC Chan on Spotify and by looking into her activit
 
 
     uiuctf{7rU1Y_50N65_0F_7H3_5UMM3r_432013}
-
-
-<style>
-.hidden-text {
-    color: black;
-    background-color: black;
-    transition: color 0.3s ease;
-}
-
-.hidden-text:hover {
-    color: white;
-}
-
-</style>
-
-
